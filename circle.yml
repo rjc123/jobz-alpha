@@ -1,0 +1,20 @@
+
+machine:
+  node:
+    version: 4.1.0
+  services:
+    - docker
+
+dependencies:
+  override:
+    - ./package.sh $CIRCLE_SHA1 $DOCKER_USER $DOCKER_EMAIL $DOCKER_PASSWORD
+
+test:
+  override:
+    - echo "Tests"
+
+deployment:
+  staging:
+    branch: master
+    commands:
+      - ./deploy.sh $CIRCLE_SHA1 52.48.195.210

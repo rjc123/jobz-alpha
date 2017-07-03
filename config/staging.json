@@ -1,0 +1,15 @@
+{
+  "logging": {
+    "levels": {
+      "[all]": "TRACE"
+    }
+  },
+  "database": {
+    "url": "mongodb://jack:ljkdsaflkjfejkh3909dsjkfha3f89@c476.lamppost.7.mongolayer.com:10476,lamppost.6.mongolayer.com:10474,lamppost.7.mongolayer.com:10476/jobz?replicaSet=set-548594983122e5ac1e007968"
+  },
+  "auth": {
+    "linkedin": {
+      "callbackURL": "http://jobz.theprivatealpha.com/api/auth/linkedin/callback"
+    }
+  }
+}

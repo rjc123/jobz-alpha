@@ -1,0 +1,14 @@
+
+#dashboard {
+
+  .tasks {
+
+    .completed {
+      a {
+        text-decoration: line-through;
+        color: grey;
+        pointer-events: none;
+      }
+    }
+  }
+}

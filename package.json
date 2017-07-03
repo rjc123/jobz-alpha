@@ -1,0 +1,48 @@
+{
+  "name": "jayohbeezed",
+  "description": "",
+  "version": "0.1.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "node_modules/jshint/bin/jshint .",
+    "test": "NODE_ENV=test node_modules/mocha/bin/mocha --recursive tests/*",
+    "start": "node --es_staging ."
+  },
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "braintree": "^1.30.0",
+    "co": "^4.6.0",
+    "config": "^1.14.0",
+    "connect-memcached": "^0.1.0",
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.0",
+    "express-session": "^1.12.1",
+    "fb": "^0.7.3",
+    "log4js": "^0.6.26",
+    "moment": "^2.10.6",
+    "mongoose": "^4.2.3",
+    "mongoose-class-wrapper": "^0.5.0",
+    "mongoose-findorcreate": "^0.1.2",
+    "passport": "^0.2.2",
+    "passport-facebook": "^2.0.0",
+    "passport-facebook-token": "^3.0.5",
+    "passport-github": "^1.0.0",
+    "passport-linkedin": "^1.0.0",
+    "react-s3-uploader": "^1.1.17",
+    "request-promise": "^1.0.2",
+    "terraformer": "^1.0.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "jshint": "^2.5.6",
+    "mocha": "^2.2.5",
+    "nodemon": "^1.8.0",
+    "supertest": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CautionYourBlast/jayohbeezed.git"
+  }
+}

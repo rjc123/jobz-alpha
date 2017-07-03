@@ -1,0 +1,29 @@
+{
+  "logging": {
+    "appenders": [
+      { "type": "console" }
+    ],
+    "levels": {
+      "[all]": "TRACE"
+    }
+  },
+  "database": {
+    "url": "mongodb://localhost:27017/jobz"
+  },
+  "auth": {
+    "linkedin": {
+      "profileFields": [ "id", "first-name", "last-name", "email-address", "picture-url" ],
+      "consumerKey": "77j9vbo4mct13a",
+      "consumerSecret": "Kpa8PkGJrtbrumM7",
+      "callbackURL": "http://localhost:3000/api/auth/linkedin/callback"
+    }
+  },
+  "session": {
+    "name": "sid",
+    "secret": "keyboard cat",
+    "unset": "destroy",
+    "cookie": { "httpOnly": false },
+    "resave": true,
+    "saveUninitialized": true
+  }
+}

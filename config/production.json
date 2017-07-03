@@ -1,0 +1,17 @@
+{
+  "logging": {
+    "levels": {
+      "[all]": "WARN"
+    }
+  },
+  "auth": {
+    "linkedin": {
+      "consumerKey": "77j9vbo4mct13a",
+      "consumerSecret": "Kpa8PkGJrtbrumM7",
+      "callbackURL": "https://theprivatealpha.com/api/auth/linkedin/callback"
+    }
+  },
+  "database": {
+    "url": ""
+  }
+}
